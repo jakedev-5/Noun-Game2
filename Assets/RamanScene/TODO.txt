@@ -1,0 +1,32 @@
+TODO:
+
+Notes ---
+Don’t send any unity work to Alex / ptimgmt
+I’ve saved a new scene called “Ramans Idea”.
+
+Raman's Idea scene:
+- [X] Keep the game in same position in room, against the blank wall
+- [X] Enlarge room so you can only see one wall
+- [X] Float (3x) 3D neon signs on wall that say “Person” “Place” “Thing”
+- [X] Put a carpet on floor (red)
+- [X] Put 3 trays on floor, similar to how we did on our first build
+- [X] Double the block size
+- [X] Stack cubes
+- [X] Move all scene assets to a separate empty GameObject in Hierarchy called "Level Assets"
+- [X] Move all objects in the room outside of the players view to VR empty GameObject (child of Level Assets), when they put an oculus on we can activate all objects, that way we only render what is necessary for both versions
+
+
+Development scene:
+- [x] Move all scene assets to a separate empty GameObject ("Level Assets") in Hierarchy
+- [X] Put the scene a little closer. Bins are far
+- [X] Bring walls down on buckets so we can see whats inside
+- [X] Double the block size
+- [X] Bring back the unseen objects (bed, desk, window, etc..) in the room, Assign a tag (“VR”) to all objects in the room outside of the players view, when they put an oculus on I can activate all objects with this tag, that way we only render what is necessary for both versions
+
+Engine Improvements:
+- [x] Migrate AnswerBin collider script to AnswerBin, not GamePiece
+- [x] Finish SoundManager correct answer function
+- [X] Fireworks only when they win
+- [X] Lerp GamePiece back if they’re wrong, and play audio SoundManager.wrongAnswer(word)
+- [X] Magnetically stack GamePiece if user is correct, and play audio SoundManager.correctAnswer(word)
+- [X] Disable GamePiece after they've been scored LLSLSL

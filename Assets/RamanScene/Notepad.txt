@@ -1,0 +1,12 @@
+﻿LevelManager: 
+	String: word
+	Image: picture
+	3 generic dialouge audio files
+		correct
+		wrong-person
+		wrong-place
+		wrong-thing
+	Audio: word
+
+
+	Sound effects: ding, buzzer, fireworks

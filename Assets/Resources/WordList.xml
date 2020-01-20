@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WordList>
+  <Words>
+    <Word name="George Washington">
+
+      <Tag>Person</Tag>
+
+      <Texture>GeorgeWashington_Texture</Texture>
+
+      <Audio>George Washington</Audio>
+
+    </Word>
+
+    <Word name="Arkansas">
+
+      <Tag>Place</Tag>
+
+      <Texture>Arkansas_Texture</Texture>
+
+      <Audio>Arkansas</Audio>
+
+    </Word>
+
+    <Word name="Eiffel Tower">
+
+      <Tag>Thing</Tag>
+
+      <Texture>EiffelTower_Texture</Texture>
+
+      <Audio>Eiffel Tower</Audio>
+
+    </Word>
+
+    <Word name="Abraham Lincoln">
+
+      <Tag>Person</Tag>
+
+      <Texture>AbeLincoln_Texture</Texture>
+
+      <Audio>Abraham Lincoln</Audio>
+
+    </Word>
+
+    <Word name="Arizona">
+
+      <Tag>Place</Tag>
+
+      <Texture>Arizona_Texture</Texture>
+
+      <Audio>Arizona</Audio>
+
+    </Word>
+
+    <Word name="Chair">
+
+      <Tag>Thing</Tag>
+
+      <Texture>Chair_Texture</Texture>
+
+      <Audio>Chair</Audio>
+
+    </Word>
+
+  </Words>
+
+</WordList>
