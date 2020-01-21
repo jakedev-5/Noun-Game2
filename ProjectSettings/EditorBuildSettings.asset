@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: e82d9f9ad442a274da9b92583318a79f
+  - enabled: 1
     path: Assets/Scenes/Noun Game.unity
     guid: 9ebf3e7c5bc68044baafe3cae76dbf27
   - enabled: 1
@@ -14,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/#&&$&#&.unity
     guid: e2140b8360424ea4f81186a4551932e4
+  - enabled: 1
+    path: Assets/Scenes/FillTheBlank.unity
+    guid: dadeb34e6fcc9d343871abd479e1643f
   m_configObjects: {}

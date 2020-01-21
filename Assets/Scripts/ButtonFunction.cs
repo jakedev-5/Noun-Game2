@@ -28,6 +28,14 @@ public class ButtonFunction : MonoBehaviour
 
     public void ChangeScene()
     {
+        SceneManager.LoadScene(2);
+    }
+    public void ChangeScene2()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void ChangeScene3()
+    {
         SceneManager.LoadScene(1);
     }
 }

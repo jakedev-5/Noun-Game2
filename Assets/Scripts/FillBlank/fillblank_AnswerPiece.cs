@@ -3,11 +3,12 @@ using System.Collections;
 
 public class fillblank_AnswerPiece : MonoBehaviour {
 
-    GrabbableObject grab;
+    public bool grabbed;
     string initialTag;
     Rigidbody physicsBody;
     Collider collision;
     public Vector3 initialPosition;
+    public bool answered;
     
     public string answer;
     public bool correctAnswer = false;
@@ -18,18 +19,19 @@ public class fillblank_AnswerPiece : MonoBehaviour {
 	    initialPosition = transform.position;
 	    initialTag = tag;
         physicsBody = GetComponent<Rigidbody>();
-        grab = GetComponent<GrabbableObject>();
         collision = GetComponent<Collider>();
 	    Physics.IgnoreLayerCollision(8, 8, true); // Ignore collision between AnswerPieces
         Physics.IgnoreLayerCollision(8, 9, true); // Ignore collision between AnswerPiece and Hands
 
         Freeze();
+
+        
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        if(grab.IsGrabbed() && physicsBody.isKinematic)
+        if(grabbed && physicsBody.isKinematic)
         {
             
             UnFreeze();
@@ -62,5 +64,13 @@ public class fillblank_AnswerPiece : MonoBehaviour {
     public void reinitializeTag()
     {
         tag = initialTag;
+    }
+    private void OnMouseDown()
+    {
+        grabbed = true;
+    }
+    private void OnMouseUp()
+    {
+        grabbed = false;
     }
 }

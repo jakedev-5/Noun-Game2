@@ -38,7 +38,7 @@ public class Code : MonoBehaviour
                 {
                     if (four == 1)
                     {
-                        SceneManager.LoadScene(2);
+                        SceneManager.LoadScene(3);
                     }
                 }
             }

@@ -15,14 +15,13 @@ public class fillblank_AnswerBlank : MonoBehaviour
     {
         // Get reference to the other.answerPiece script
         fillblank_AnswerPiece answerPieceRef = answerPiece.gameObject.GetComponent<fillblank_AnswerPiece>();
-        var grab = answerPiece.gameObject.GetComponent<GrabbableObject>();
         // Temporarily disable the Collider trigger to avoid multiple scoring
         triggerCollider.enabled = false;
 
         //Debug.Log(answerPieceRef.tag);
-        if (answerPieceRef != null && grab != null)
+        if (!answerPieceRef.answered)
         {
-            if (!grab.IsGrabbed())
+            if (!answerPieceRef.grabbed)
             {
                 switch (answerPieceRef.tag.ToLower()) // Compare the answerbox's expected tag (ToLower() makes this case-insensitive)
                 {
@@ -50,8 +49,9 @@ public class fillblank_AnswerBlank : MonoBehaviour
 
     private IEnumerator CorrectAnswer(Collider collider, fillblank_AnswerPiece answerPiece)
     {
+        answerPiece.answered = true;
         // Play audio sequence "Good Job, <word> is a <type>"
-//        StartCoroutine(fillblank_SoundManager.Instance.playCorrectAudio());
+        //        StartCoroutine(fillblank_SoundManager.Instance.playCorrectAudio());
         fillblank_ScoreManager.score++;
 
         // Reference the stacker child object, used to lerp correct answerPieces into a stack
@@ -91,6 +91,7 @@ public class fillblank_AnswerBlank : MonoBehaviour
 
     private IEnumerator WrongAnswer(Collider collider, fillblank_AnswerPiece answerPiece)
     {
+        answerPiece.answered = true;
         // Play audio sequence "Wrong!"
         //        StartCoroutine(fillblank_SoundManager.Instance.playCorrectAudio());
 
@@ -109,6 +110,8 @@ public class fillblank_AnswerBlank : MonoBehaviour
 
         // UnFreeze GamePiece now that its back in play
         collider.GetComponent<Rigidbody>().isKinematic = false;
+
+        answerPiece.answered = false;
     }
 
 }
