@@ -5,6 +5,7 @@
     
     <Problem id="_1">
       <QuestionLeading>My green pencil</QuestionLeading>
+      <QuestionLeadingAudio>Question_1</QuestionLeadingAudio>
       <QuestionTrailing>on the floor.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -14,6 +15,7 @@
 
     <Problem id="_2">
       <QuestionLeading>Emma and Betty</QuestionLeading>
+      <QuestionLeadingAudio>Question_2</QuestionLeadingAudio>
       <QuestionTrailing>good friends.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -23,6 +25,7 @@
 
     <Problem id="_3">
       <QuestionLeading>I</QuestionLeading>
+      <QuestionLeadingAudio>Question_3-4-13</QuestionLeadingAudio>
       <QuestionTrailing>a girl.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -32,6 +35,7 @@
 
     <Problem id="_4">
       <QuestionLeading>I</QuestionLeading>
+      <QuestionLeadingAudio>Question_4</QuestionLeadingAudio>
       <QuestionTrailing>a painter.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -41,6 +45,7 @@
 
     <Problem id="_5">
       <QuestionLeading>His sister</QuestionLeading>
+      <QuestionLeadingAudio>Question_5</QuestionLeadingAudio>
       <QuestionTrailing>seven years old.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -50,7 +55,8 @@
 
     <Problem id="_6">
       <QuestionLeading></QuestionLeading>
-      <QuestionTrailing>you from Scotland?</QuestionTrailing>
+      <QuestionLeadingAudio>Question_2</QuestionLeadingAudio>
+      <QuestionTrailing>you from Scottland?</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -82,11 +88,12 @@
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
-      <CorrectAnswerIndex>3</CorrectAnswerIndex>
+      <CorrectAnswerIndex>2</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_10">
       <QuestionLeading>Trixi and Susi</QuestionLeading>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
       <QuestionTrailing>my cats.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
