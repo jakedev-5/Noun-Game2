@@ -27,7 +27,7 @@ public class fillblank_SoundManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    public IEnumerator playCorrectAudio()
+    public IEnumerator playCorrectAudio(AudioClip questionLeadingAudio2, AudioClip questionTrailingAudio2)
     {
         AudioSource jukebox = this.gameObject.GetComponent<AudioSource>();
 

@@ -8,6 +8,8 @@ public class fillblank_LevelManager : MonoBehaviour
     public fillblank_ProblemsContainer problemsCollection;
     public int initialProblemCapacity;
 
+    public fillblank_AnswerBlank answerblank;
+
     // AnswerPiece Prefabs
     public GameObject answerPiece;
     public Transform initialTransform;
@@ -31,10 +33,7 @@ public class fillblank_LevelManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.R))
-        {
-            restartCurrentScene();
-        }
+
     }
 
     // Ensures two copies of the singleton do not exist
@@ -66,6 +65,8 @@ public class fillblank_LevelManager : MonoBehaviour
         {
             // Choose index of word from <wordCollection.words>
             int chosenIndex = Random.Range(0, problemsCollection.problems.Count);
+
+            answerblank.questionnumber = chosenIndex;
 
             // Initialize new fillblank_AnswerPiece using info from <problemsCollection.problems[chosenIndex]>
             GameObject cloneM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));

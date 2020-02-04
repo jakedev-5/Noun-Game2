@@ -66,6 +66,7 @@
 
     <Problem id="_7">
       <QuestionLeading>We</QuestionLeading>
+      <QuestionLeadingAudio>Question_7-14</QuestionLeadingAudio>
       <QuestionTrailing>children.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -75,6 +76,7 @@
 
     <Problem id="_8">
       <QuestionLeading>The hamster</QuestionLeading>
+      <QuestionLeadingAudio>Question_8</QuestionLeadingAudio>
       <QuestionTrailing>in the cage.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -84,6 +86,7 @@
 
     <Problem id="_9">
       <QuestionLeading>You</QuestionLeading>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
       <QuestionTrailing>playing a video game.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -93,7 +96,7 @@
 
     <Problem id="_10">
       <QuestionLeading>Trixi and Susi</QuestionLeading>
-      <QuestionLeadingAudio></QuestionLeadingAudio>
+      <QuestionLeadingAudio>Question_10</QuestionLeadingAudio>
       <QuestionTrailing>my cats.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -103,6 +106,7 @@
 
     <Problem id="_11">
       <QuestionLeading>I</QuestionLeading>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
       <QuestionTrailing>trapped in here.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -112,6 +116,7 @@
 
     <Problem id="_12">
       <QuestionLeading>The teacher</QuestionLeading>
+      <QuestionLeadingAudio>Question_12</QuestionLeadingAudio>
       <QuestionTrailing>late.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -121,6 +126,7 @@
 
     <Problem id="_13">
       <QuestionLeading>I</QuestionLeading>
+      <QuestionLeadingAudio>Question_3-4-13</QuestionLeadingAudio>
       <QuestionTrailing>late.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -130,6 +136,7 @@
 
     <Problem id="_14">
       <QuestionLeading>We</QuestionLeading>
+      <QuestionLeadingAudio>Question_7-14</QuestionLeadingAudio>
       <QuestionTrailing>late.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -139,6 +146,7 @@
 
     <Problem id="_15">
       <QuestionLeading>It</QuestionLeading>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
       <QuestionTrailing>time for you to leave.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>

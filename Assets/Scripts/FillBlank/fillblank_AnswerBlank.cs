@@ -6,9 +6,31 @@ public class fillblank_AnswerBlank : MonoBehaviour
     // Keep a reference to frequently used BoxCollider
     BoxCollider triggerCollider;
 
+    public fillblank_LevelManager oof;
+
+    public int answernumber;
+
+    public int questionnumber;
+
+    public string questionLeadingAudio;
+    public string questionTrailingAudio;
+
+    public AudioClip questionLeadingAudio2;
+    public AudioClip questionTrailingAudio2;
+
     void Start()
     {
         triggerCollider = GetComponent<BoxCollider>();
+    }
+
+    private void Update()
+    {
+        answernumber = oof.problemsCollection.problems[questionnumber].correctAnswerIndex;
+        questionLeadingAudio = oof.problemsCollection.problems[questionnumber].questionLeadingAudio;
+        questionTrailingAudio = oof.problemsCollection.problems[questionnumber].questionTrailingAudio;
+
+        questionLeadingAudio2 = Resources.Load("Audio/Fill BLANK/" + questionLeadingAudio, typeof(AudioClip)) as AudioClip;
+        questionTrailingAudio2 = Resources.Load("Audio/Fill BLANK/" + questionTrailingAudio, typeof(AudioClip)) as AudioClip;
     }
 
     void OnTriggerEnter(Collider answerPiece)
@@ -51,7 +73,7 @@ public class fillblank_AnswerBlank : MonoBehaviour
     {
         answerPiece.answered = true;
         // Play audio sequence "Good Job, <word> is a <type>"
-        //        StartCoroutine(fillblank_SoundManager.Instance.playCorrectAudio());
+           StartCoroutine(fillblank_SoundManager.Instance.playCorrectAudio(questionLeadingAudio2, questionTrailingAudio2));
         fillblank_ScoreManager.score++;
 
         // Reference the stacker child object, used to lerp correct answerPieces into a stack

@@ -245,6 +245,7 @@
     <Compile Include="Assets\Scripts\FillBlank\fillblank_ProblemsContainer.cs" />
     <Compile Include="Assets\Scripts\FillBlank\fillblank_ScoreManager.cs" />
     <Compile Include="Assets\Scripts\FillBlank\fillblank_SoundManager.cs" />
+    <Compile Include="Assets\Scripts\FillBlank\FillblankSoundManager.cs" />
     <Compile Include="Assets\Scripts\Fillblank_Drag.cs" />
     <Compile Include="Assets\Scripts\GamePiece.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />

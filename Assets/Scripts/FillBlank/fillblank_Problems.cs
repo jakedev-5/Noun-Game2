@@ -11,8 +11,14 @@ public class fillblank_Problems
     [XmlElement("QuestionLeading")]
     public string questionLeading;
 
+    [XmlElement("QuestionLeadingAudio")]
+    public string questionLeadingAudio;
+
     [XmlElement("QuestionTrailing")]
     public string questionTrailing;
+
+    [XmlElement("QuestionTrailingAudio")]
+    public string questionTrailingAudio;
 
     [XmlElement("Answer_1")]
     public string answer1;
