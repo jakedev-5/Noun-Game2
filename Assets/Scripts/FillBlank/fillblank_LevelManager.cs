@@ -66,7 +66,14 @@ public class fillblank_LevelManager : MonoBehaviour
             // Choose index of word from <wordCollection.words>
             int chosenIndex = Random.Range(0, problemsCollection.problems.Count);
 
-            answerblank.questionnumber = chosenIndex;
+            
+
+            answerblank.answernumber = problemsCollection.problems[chosenIndex].correctAnswerIndex;
+            answerblank.questionLeadingAudio = problemsCollection.problems[chosenIndex].questionLeadingAudio;
+            answerblank.questionTrailingAudio = problemsCollection.problems[chosenIndex].questionTrailingAudio;
+
+            answerblank.questionLeadingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionLeadingAudio, typeof(AudioClip)) as AudioClip;
+            answerblank.questionTrailingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionTrailingAudio, typeof(AudioClip)) as AudioClip;
 
             // Initialize new fillblank_AnswerPiece using info from <problemsCollection.problems[chosenIndex]>
             GameObject cloneM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
@@ -83,6 +90,13 @@ public class fillblank_LevelManager : MonoBehaviour
             cloneScriptM.answer = problemsCollection.problems[chosenIndex].answer2;
             cloneScriptL.answer = problemsCollection.problems[chosenIndex].answer1;
             cloneScriptR.answer = problemsCollection.problems[chosenIndex].answer3;
+
+            answerblank.answernumber = problemsCollection.problems[chosenIndex].correctAnswerIndex;
+            answerblank.questionLeadingAudio = problemsCollection.problems[chosenIndex].questionLeadingAudio;
+            answerblank.questionTrailingAudio = problemsCollection.problems[chosenIndex].questionTrailingAudio;
+
+            answerblank.questionLeadingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionLeadingAudio, typeof(AudioClip)) as AudioClip;
+            answerblank.questionTrailingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionTrailingAudio, typeof(AudioClip)) as AudioClip;
 
             switch (problemsCollection.problems[chosenIndex].correctAnswerIndex) {
                 case 1:

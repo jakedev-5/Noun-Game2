@@ -13,7 +13,7 @@ public class FillblankSoundManager : MonoBehaviour
 
     public AudioClip gameOver;
 
-    private AudioSource jukebox;
+    public AudioSource jukebox;
 
     public fillblank_AnswerBlank answerblank;
 
@@ -75,9 +75,10 @@ public class FillblankSoundManager : MonoBehaviour
         yield return new WaitForSeconds(qt.length);
     }
 
-    public void playWrongAudio()
+    public IEnumerator playWrongAudio()
     {
         jukebox.PlayOneShot(WrongOneKid);
+        yield return new WaitForSeconds(0.1f);
     }
     // Start is called before the first frame update
     void Start()

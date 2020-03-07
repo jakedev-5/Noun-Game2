@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class fillblank_SoundManager : MonoBehaviour
+public class fillblankSoundManager : MonoBehaviour
 {
     public AudioClip goodJob;
 
     // Object declared as a singleton, can be accessed using fillblank_SoundManager.Instance from anywhere
-    private static fillblank_SoundManager instance = null;
-    public static fillblank_SoundManager Instance
+    private static fillblankSoundManager instance = null;
+    public static fillblankSoundManager Instance
     {
         get { return instance; }
     }

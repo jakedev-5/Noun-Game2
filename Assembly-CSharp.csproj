@@ -233,6 +233,13 @@
     <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRCameraControl.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\AnswerBin.cs" />
     <Compile Include="Assets\Scripts\Barrier.cs" />
     <Compile Include="Assets\Scripts\ButtonFunction.cs" />
@@ -246,6 +253,8 @@
     <Compile Include="Assets\Scripts\FillBlank\fillblank_ScoreManager.cs" />
     <Compile Include="Assets\Scripts\FillBlank\fillblank_SoundManager.cs" />
     <Compile Include="Assets\Scripts\FillBlank\FillblankSoundManager.cs" />
+    <Compile Include="Assets\Scripts\FillBlank\MC.cs" />
+    <Compile Include="Assets\Scripts\FillBlank\MCMovment.cs" />
     <Compile Include="Assets\Scripts\Fillblank_Drag.cs" />
     <Compile Include="Assets\Scripts\GamePiece.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
@@ -322,6 +331,7 @@
     <None Include="Assets\LeapMotion\readme.txt" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
     <None Include="Assets\Resources\WordList.xml" />
+    <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Readme.txt" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
     <None Include="Assets\LeapMotion\Resources\ImageHandHighlight.shader" />
@@ -390,6 +400,7 @@
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />

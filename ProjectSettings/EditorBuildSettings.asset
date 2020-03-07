@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FillTheBlank.unity
     guid: dadeb34e6fcc9d343871abd479e1643f
+  - enabled: 1
+    path: Assets/Scenes/RickRolled.unity
+    guid: 227c5105c8363304698a0c16d910538d
+  - enabled: 1
+    path: Assets/Scenes/Welcome.unity
+    guid: 8b086d0bdbe370d4ba720d7ccc3eb894
   m_configObjects: {}

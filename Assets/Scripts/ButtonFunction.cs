@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ButtonFunction : MonoBehaviour
 {
+
+    public fillblank_LevelManager FallenKingdom;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +17,13 @@ public class ButtonFunction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        FallenKingdom = GameObject.Find("Manager").GetComponent<fillblank_LevelManager>();
     }
     public void restartCurrentScene()
     {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
+        StartCoroutine(FallenKingdom.spawnAnswerPiece());
     }
     public void ExitGame()
     {
@@ -37,5 +41,13 @@ public class ButtonFunction : MonoBehaviour
     public void ChangeScene3()
     {
         SceneManager.LoadScene(1);
+    }
+    public void ChangeScene4()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void ChangeScene5()
+    {
+        SceneManager.LoadScene(6);
     }
 }

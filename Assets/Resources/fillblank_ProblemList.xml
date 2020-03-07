@@ -5,8 +5,12 @@
     
     <Problem id="_1">
       <QuestionLeading>My green pencil</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_1</QuestionLeadingAudio>
+      
       <QuestionTrailing>on the floor.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_1</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -15,8 +19,12 @@
 
     <Problem id="_2">
       <QuestionLeading>Emma and Betty</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_2</QuestionLeadingAudio>
+      
       <QuestionTrailing>good friends.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_2</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -25,8 +33,12 @@
 
     <Problem id="_3">
       <QuestionLeading>I</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_3-4-13</QuestionLeadingAudio>
+      
       <QuestionTrailing>a girl.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_3</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -35,8 +47,12 @@
 
     <Problem id="_4">
       <QuestionLeading>I</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_4</QuestionLeadingAudio>
+      
       <QuestionTrailing>a painter.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_4</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -45,8 +61,12 @@
 
     <Problem id="_5">
       <QuestionLeading>His sister</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_5</QuestionLeadingAudio>
+      
       <QuestionTrailing>seven years old.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_5</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -55,8 +75,12 @@
 
     <Problem id="_6">
       <QuestionLeading></QuestionLeading>
+      
       <QuestionLeadingAudio>Question_2</QuestionLeadingAudio>
+      
       <QuestionTrailing>you from Scottland?</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_6</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -66,8 +90,12 @@
 
     <Problem id="_7">
       <QuestionLeading>We</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_7-14</QuestionLeadingAudio>
+      
       <QuestionTrailing>children.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_7</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -76,8 +104,12 @@
 
     <Problem id="_8">
       <QuestionLeading>The hamster</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_8</QuestionLeadingAudio>
+      
       <QuestionTrailing>in the cage.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_8</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -86,8 +118,12 @@
 
     <Problem id="_9">
       <QuestionLeading>You</QuestionLeading>
-      <QuestionLeadingAudio></QuestionLeadingAudio>
+      
+      <QuestionLeadingAudio>When_I_wake_up</QuestionLeadingAudio>
+      
       <QuestionTrailing>playing a video game.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -96,8 +132,12 @@
 
     <Problem id="_10">
       <QuestionLeading>Trixi and Susi</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_10</QuestionLeadingAudio>
+      
       <QuestionTrailing>my cats.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -106,8 +146,12 @@
 
     <Problem id="_11">
       <QuestionLeading>I</QuestionLeading>
-      <QuestionLeadingAudio></QuestionLeadingAudio>
+      
+      <QuestionLeadingAudio>Question_3-4-13</QuestionLeadingAudio>
+      
       <QuestionTrailing>trapped in here.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -116,7 +160,9 @@
 
     <Problem id="_12">
       <QuestionLeading>The teacher</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_12</QuestionLeadingAudio>
+      
       <QuestionTrailing>late.</QuestionTrailing>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
@@ -126,8 +172,12 @@
 
     <Problem id="_13">
       <QuestionLeading>I</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_3-4-13</QuestionLeadingAudio>
+      
       <QuestionTrailing>late.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_12-13-14</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -136,8 +186,12 @@
 
     <Problem id="_14">
       <QuestionLeading>We</QuestionLeading>
+      
       <QuestionLeadingAudio>Question_7-14</QuestionLeadingAudio>
+      
       <QuestionTrailing>late.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_12-13-14</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
@@ -146,8 +200,12 @@
 
     <Problem id="_15">
       <QuestionLeading>It</QuestionLeading>
-      <QuestionLeadingAudio></QuestionLeadingAudio>
+      
+      <QuestionLeadingAudio>it</QuestionLeadingAudio>
+      
       <QuestionTrailing>time for you to leave.</QuestionTrailing>
+      
+      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
       <Answer_1>is</Answer_1>
       <Answer_2>are</Answer_2>
       <Answer_3>am</Answer_3>
