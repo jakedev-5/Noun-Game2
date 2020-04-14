@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class MCMovment : MonoBehaviour
 {
+    
     public float speed;
+
+    public GameObject FrontBarrier;
+    public GameObject BackBarrier;
     
 
     // Start is called before the first frame update
@@ -32,6 +36,18 @@ public class MCMovment : MonoBehaviour
         {
             transform.position += transform.TransformDirection(0, 0, speed);
         }
-        
+
+        bool fronthit = FrontBarrier.GetComponent<ForceFieldMC>().hit;
+        bool backhit = BackBarrier.GetComponent<ForceFieldMC>().hit;
+        if (fronthit)
+        {
+            transform.position += transform.TransformDirection(0, 0, -5);
+            FrontBarrier.GetComponent<ForceFieldMC>().hit = false;
+        }
+        if (backhit)
+        {
+            transform.position += transform.TransformDirection(0, 0, 5);
+            BackBarrier.GetComponent<ForceFieldMC>().hit = false;
+        }
     }
 }

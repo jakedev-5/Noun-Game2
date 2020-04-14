@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Welcome.unity
     guid: 8b086d0bdbe370d4ba720d7ccc3eb894
+  - enabled: 1
+    path: Assets/Scenes/Verb Game.unity
+    guid: 70e1386821face547bb39b83cee62af2
   m_configObjects: {}
