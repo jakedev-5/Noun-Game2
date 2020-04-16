@@ -236,6 +236,7 @@
      <Compile Include="Assets\Scripts\Barrier.cs" />
      <Compile Include="Assets\Scripts\ButtonFunction.cs" />
      <Compile Include="Assets\Scripts\Code.cs" />
+     <Compile Include="Assets\Scripts\CODING.cs" />
      <Compile Include="Assets\Scripts\Drag.cs" />
      <Compile Include="Assets\Scripts\FillBlank\fillblank_AnswerBlank.cs" />
      <Compile Include="Assets\Scripts\FillBlank\fillblank_AnswerPiece.cs" />
@@ -251,6 +252,7 @@
      <Compile Include="Assets\Scripts\Fillblank_Drag.cs" />
      <Compile Include="Assets\Scripts\GamePiece.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\NotSafeZone.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Word.cs" />
