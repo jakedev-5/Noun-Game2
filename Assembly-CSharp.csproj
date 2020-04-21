@@ -237,6 +237,7 @@
      <Compile Include="Assets\Scripts\ButtonFunction.cs" />
      <Compile Include="Assets\Scripts\Code.cs" />
      <Compile Include="Assets\Scripts\CODING.cs" />
+     <Compile Include="Assets\Scripts\Cypher.cs" />
      <Compile Include="Assets\Scripts\Drag.cs" />
      <Compile Include="Assets\Scripts\FillBlank\fillblank_AnswerBlank.cs" />
      <Compile Include="Assets\Scripts\FillBlank\fillblank_AnswerPiece.cs" />

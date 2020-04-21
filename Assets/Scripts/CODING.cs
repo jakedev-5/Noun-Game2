@@ -39,11 +39,36 @@ public class CODING : MonoBehaviour
             }
 
         }
+
+        if (one == 9)
+        {
+            if (two == 1)
+            {
+                if (three == 5)
+                {
+                    SceneManager.LoadScene(9);
+                }
+            }
+
+        }
+
+        if (one == 3)
+        {
+            if (two == 2)
+            {
+                if (three == 0)
+                {
+                    SceneManager.LoadScene(10);
+                }
+            }
+
+        }
     }
     public void onepress()
     {
         if (one > 8)
         {
+            Debug.Log("Do u noe da wae?");
             one = 0;
         }
         else

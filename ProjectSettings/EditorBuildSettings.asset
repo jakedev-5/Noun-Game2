@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Verb Game.unity
     guid: 70e1386821face547bb39b83cee62af2
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: ab8dcbf9a54bc874f8633b193a33b8fb
+  - enabled: 1
+    path: Assets/Scenes/Cypher.unity
+    guid: d96e210e06b4e9d48a07ae4b4cf52627
+  - enabled: 1
+    path: Assets/Scenes/GlitchEnd.unity
+    guid: 0b23f802512c8654c92be10e3dbf1ae2
   m_configObjects: {}
