@@ -254,6 +254,7 @@
      <Compile Include="Assets\Scripts\GamePiece.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\NotSafeZone.cs" />
+     <Compile Include="Assets\Scripts\NumbersYe.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Word.cs" />
