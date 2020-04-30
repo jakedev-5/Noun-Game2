@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MathGame_LevelManager : MonoBehaviour
 {
-    public const string xmlPath = "fillblank_ProblemList";
-    public fillblank_ProblemsContainer problemsCollection;
+    public const string xmlPath = "MathQuestions";
+    public MathProblemsContainer problemsCollection;
     public int initialProblemCapacity;
 
     public AnswerMath answerblank;
@@ -26,7 +26,7 @@ public class MathGame_LevelManager : MonoBehaviour
 
     void Start()
     {
-        problemsCollection = fillblank_ProblemsContainer.Load(xmlPath);
+        problemsCollection = MathProblemsContainer.Load(xmlPath);
         initialProblemCapacity = problemsCollection.problems.Count;
 
         StartCoroutine(spawnAnswerPiece());

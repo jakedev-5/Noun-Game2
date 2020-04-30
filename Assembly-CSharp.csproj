@@ -254,9 +254,11 @@
      <Compile Include="Assets\Scripts\GamePiece.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\MathGame\AnswerMath.cs" />
-     <Compile Include="Assets\Scripts\MathGame\BoardCollision(MathGame).cs" />
+     <Compile Include="Assets\Scripts\MathGame\BoardCollisionMathGame.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGame_LevelManager.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGameGamePiece.cs" />
+     <Compile Include="Assets\Scripts\MathGame\MathProblems.cs" />
+     <Compile Include="Assets\Scripts\MathGame\MathProblemsContainer.cs" />
      <Compile Include="Assets\Scripts\NotSafeZone.cs" />
      <Compile Include="Assets\Scripts\NumbersYe.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
@@ -358,7 +360,7 @@
      <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Kids Room\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Kids Room\Standard Assets\Effects\Projectors\Guidelines.txt" />
-     <None Include="Assets\Resources\XMLFile1.xml" />
+     <None Include="Assets\Resources\MathQuestions.xml" />
      <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\Kids Room\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
