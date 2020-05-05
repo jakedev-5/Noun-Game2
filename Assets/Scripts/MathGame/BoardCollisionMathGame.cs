@@ -14,10 +14,8 @@ public class BoardCollisionMathGame : MonoBehaviour
     public int questionnumber;
 
     public string questionLeadingAudio;
-    public string questionTrailingAudio;
 
     public AudioClip questionLeadingAudio2;
-    public AudioClip questionTrailingAudio2;
 
     void Start()
     {
@@ -69,7 +67,7 @@ public class BoardCollisionMathGame : MonoBehaviour
     {
         answerPiece.answered = true;
         // Play audio sequence "Good Job, <word> is a <type>"
-        StartCoroutine(FillblankSoundManager.Instance.playCorrectAudio(questionLeadingAudio2, questionTrailingAudio2));
+        StartCoroutine(MathGameSoundManager.Instance.playCorrectAudio(questionLeadingAudio2));
         fillblank_ScoreManager.score++;
 
         // Reference the stacker child object, used to lerp correct answerPieces into a stack

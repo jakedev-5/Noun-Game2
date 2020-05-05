@@ -4,22 +4,23 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.IO;
 
-[XmlRoot("MathProblemList")]
-public class MathProblemsContainer {
+[XmlRoot("ProblemList")]
+public class MathProblemContainer 
+{
 
-    [XmlArray("MathProblems")]
+    [XmlArray("Problems")]
     [XmlArrayItem("Problem")]
     public List<MathProblems> problems = new List<MathProblems>();
 
-    public static MathProblemsContainer Load(string path)
+    public static MathProblemContainer Load(string path)
     {
         TextAsset _xml = Resources.Load<TextAsset>(path);
 
-        XmlSerializer serializer = new XmlSerializer(typeof(MathProblemsContainer));
+        XmlSerializer serializer = new XmlSerializer(typeof(MathProblemContainer));
 
         StringReader reader = new StringReader(_xml.text);
 
-        MathProblemsContainer problems = serializer.Deserialize(reader) as MathProblemsContainer;
+        MathProblemContainer problems = serializer.Deserialize(reader) as MathProblemContainer;
 
         reader.Close();
 

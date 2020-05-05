@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class MathGame_LevelManager : MonoBehaviour
 {
     public const string xmlPath = "MathQuestions";
-    public MathProblemsContainer problemsCollection;
+    public MathProblemContainer problemsCollection;
     public int initialProblemCapacity;
 
-    public AnswerMath answerblank;
+    public BoardCollisionMathGame answerblank;
 
     // AnswerPiece Prefabs
     public GameObject answerPiece;
@@ -26,7 +26,7 @@ public class MathGame_LevelManager : MonoBehaviour
 
     void Start()
     {
-        problemsCollection = MathProblemsContainer.Load(xmlPath);
+        problemsCollection = MathProblemContainer.Load(xmlPath);
         initialProblemCapacity = problemsCollection.problems.Count;
 
         StartCoroutine(spawnAnswerPiece());
@@ -71,22 +71,20 @@ public class MathGame_LevelManager : MonoBehaviour
 
             answerblank.answernumber = problemsCollection.problems[chosenIndex].correctAnswerIndex;
             answerblank.questionLeadingAudio = problemsCollection.problems[chosenIndex].questionLeadingAudio;
-            answerblank.questionTrailingAudio = problemsCollection.problems[chosenIndex].questionTrailingAudio;
 
             answerblank.questionLeadingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionLeadingAudio, typeof(AudioClip)) as AudioClip;
-            answerblank.questionTrailingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionTrailingAudio, typeof(AudioClip)) as AudioClip;
 
             // Initialize new fillblank_AnswerPiece using info from <problemsCollection.problems[chosenIndex]>
             GameObject cloneM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
-            fillblank_AnswerPiece cloneScriptM = cloneM.GetComponent<fillblank_AnswerPiece>();
+            MathGameGamePiece cloneScriptM = cloneM.GetComponent<MathGameGamePiece>();
 
             GameObject cloneL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
             cloneL.transform.Translate(-0.3f, 0.0f, 0.0f);
-            fillblank_AnswerPiece cloneScriptL = cloneL.GetComponent<fillblank_AnswerPiece>();
+            MathGameGamePiece cloneScriptL = cloneL.GetComponent<MathGameGamePiece>();
 
             GameObject cloneR = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
             cloneR.transform.Translate(0.3f, 0.0f, 0.0f);
-            fillblank_AnswerPiece cloneScriptR = cloneR.GetComponent<fillblank_AnswerPiece>();
+            MathGameGamePiece cloneScriptR = cloneR.GetComponent<MathGameGamePiece>();
 
             cloneScriptM.answer = problemsCollection.problems[chosenIndex].answer2;
             cloneScriptL.answer = problemsCollection.problems[chosenIndex].answer1;
@@ -94,10 +92,8 @@ public class MathGame_LevelManager : MonoBehaviour
 
             answerblank.answernumber = problemsCollection.problems[chosenIndex].correctAnswerIndex;
             answerblank.questionLeadingAudio = problemsCollection.problems[chosenIndex].questionLeadingAudio;
-            answerblank.questionTrailingAudio = problemsCollection.problems[chosenIndex].questionTrailingAudio;
 
             answerblank.questionLeadingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionLeadingAudio, typeof(AudioClip)) as AudioClip;
-            answerblank.questionTrailingAudio2 = Resources.Load("Audio/Fill BLANK/" + answerblank.questionTrailingAudio, typeof(AudioClip)) as AudioClip;
 
             switch (problemsCollection.problems[chosenIndex].correctAnswerIndex)
             {
@@ -112,7 +108,7 @@ public class MathGame_LevelManager : MonoBehaviour
                     break;
             }
 
-            GameObject.Find("Blackboard").GetComponentInChildren<TextMesh>().text = problemsCollection.problems[chosenIndex].questionLeading + " ___ " + problemsCollection.problems[chosenIndex].questionTrailing;
+            GameObject.Find("Blackboard").GetComponentInChildren<TextMesh>().text = problemsCollection.problems[chosenIndex].questionLeading + " ___ ";
 
             // Remove <chosenIndex> element from <problemsCollection.problems>, since this fillblank_AnswerPiece has already been played
             problemsCollection.problems.RemoveAt(chosenIndex);

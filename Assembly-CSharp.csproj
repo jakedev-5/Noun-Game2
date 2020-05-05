@@ -257,8 +257,9 @@
      <Compile Include="Assets\Scripts\MathGame\BoardCollisionMathGame.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGame_LevelManager.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGameGamePiece.cs" />
+     <Compile Include="Assets\Scripts\MathGame\MathGameSoundManager.cs" />
+     <Compile Include="Assets\Scripts\MathGame\MathProblemContainer.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathProblems.cs" />
-     <Compile Include="Assets\Scripts\MathGame\MathProblemsContainer.cs" />
      <Compile Include="Assets\Scripts\NotSafeZone.cs" />
      <Compile Include="Assets\Scripts\NumbersYe.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
