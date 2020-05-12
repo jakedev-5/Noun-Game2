@@ -10,6 +10,9 @@
       <Answer_1>1</Answer_1>
       <Answer_2>2</Answer_2>
       <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>1</CorrectAnswerIndex>
     </Problem>
 
@@ -20,6 +23,9 @@
       <Answer_1>1</Answer_1>
       <Answer_2>2</Answer_2>
       <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>2</CorrectAnswerIndex>
     </Problem>
 
@@ -30,6 +36,9 @@
       <Answer_1>1</Answer_1>
       <Answer_2>2</Answer_2>
       <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>3</CorrectAnswerIndex>
     </Problem>
 
@@ -40,6 +49,9 @@
       <Answer_1>1</Answer_1>
       <Answer_2>2</Answer_2>
       <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>3</CorrectAnswerIndex>
     </Problem>
 
@@ -50,141 +62,174 @@
       <Answer_1>1</Answer_1>
       <Answer_2>2</Answer_2>
       <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>1</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_6">
-      <QuestionLeading></QuestionLeading>
+      <QuestionLeading>5 - 1</QuestionLeading>
 
       <QuestionLeadingAudio>Question_2</QuestionLeadingAudio>
       <Answer_1>1</Answer_1>
       <Answer_2>2</Answer_2>
       <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>2</CorrectAnswerIndex>
     </Problem>
 
 
     <Problem id="_7">
-      <QuestionLeading>We</QuestionLeading>
+      <QuestionLeading>5 + 1</QuestionLeading>
 
       <QuestionLeadingAudio>Question_7-14</QuestionLeadingAudio>
 
-      <QuestionTrailing>children.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
-      <QuestionTrailingAudio>Answer_7</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailingAudio></QuestionTrailingAudio>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>2</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_8">
-      <QuestionLeading>The hamster</QuestionLeading>
+      <QuestionLeading>4 + 2</QuestionLeading>
 
-      <QuestionLeadingAudio>Question_8</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>in the cage.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
       <QuestionTrailingAudio>Answer_8</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>1</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_9">
-      <QuestionLeading>You</QuestionLeading>
+      <QuestionLeading>3 + 3</QuestionLeading>
 
-      <QuestionLeadingAudio>When_I_wake_up</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>playing a video game.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
-      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailingAudio></QuestionTrailingAudio>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>2</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_10">
-      <QuestionLeading>Trixi and Susi</QuestionLeading>
+      <QuestionLeading>4 + 2</QuestionLeading>
 
-      <QuestionLeadingAudio>Question_10</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>my cats.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
-      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailingAudio></QuestionTrailingAudio>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>2</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_11">
-      <QuestionLeading>I</QuestionLeading>
+      <QuestionLeading>6 - 2</QuestionLeading>
 
-      <QuestionLeadingAudio>Question_3-4-13</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>trapped in here.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
-      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailingAudio></QuestionTrailingAudio>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>3</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_12">
-      <QuestionLeading>The teacher</QuestionLeading>
+      <QuestionLeading>3 + 1</QuestionLeading>
 
-      <QuestionLeadingAudio>Question_12</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>late.</QuestionTrailing>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailing></QuestionTrailing>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>1</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_13">
-      <QuestionLeading>I</QuestionLeading>
+      <QuestionLeading>3 + 2</QuestionLeading>
 
-      <QuestionLeadingAudio>Question_3-4-13</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>late.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
-      <QuestionTrailingAudio>Answer_12-13-14</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailingAudio></QuestionTrailingAudio>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>3</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_14">
-      <QuestionLeading>We</QuestionLeading>
+      <QuestionLeading>0 + 6</QuestionLeading>
 
-      <QuestionLeadingAudio>Question_7-14</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>late.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
-      <QuestionTrailingAudio>Answer_12-13-14</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailingAudio></QuestionTrailingAudio>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>2</CorrectAnswerIndex>
     </Problem>
 
     <Problem id="_15">
-      <QuestionLeading>It</QuestionLeading>
+      <QuestionLeading>5 - 0</QuestionLeading>
 
-      <QuestionLeadingAudio>it</QuestionLeadingAudio>
+      <QuestionLeadingAudio></QuestionLeadingAudio>
 
-      <QuestionTrailing>time for you to leave.</QuestionTrailing>
+      <QuestionTrailing></QuestionTrailing>
 
-      <QuestionTrailingAudio>Answer_01</QuestionTrailingAudio>
-      <Answer_1>is</Answer_1>
-      <Answer_2>are</Answer_2>
-      <Answer_3>am</Answer_3>
+      <QuestionTrailingAudio></QuestionTrailingAudio>
+      <Answer_1>1</Answer_1>
+      <Answer_2>2</Answer_2>
+      <Answer_3>3</Answer_3>
+      <Answer_4>4</Answer_4>
+      <Answer_5>5</Answer_5>
+      <Answer_6>6</Answer_6>
       <CorrectAnswerIndex>1</CorrectAnswerIndex>
     </Problem>
 

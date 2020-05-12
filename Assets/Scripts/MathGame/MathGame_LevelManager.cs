@@ -86,9 +86,24 @@ public class MathGame_LevelManager : MonoBehaviour
             cloneR.transform.Translate(0.3f, 0.0f, 0.0f);
             MathGameGamePiece cloneScriptR = cloneR.GetComponent<MathGameGamePiece>();
 
+            GameObject cloneTM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
+            cloneTM.transform.Translate(0.0f, 0.0f, 0.3f);
+            MathGameGamePiece cloneScriptTM = cloneTM.GetComponent<MathGameGamePiece>();
+
+            GameObject cloneTL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
+            cloneTL.transform.Translate(-0.3f, 0.0f, 0.3f);
+            MathGameGamePiece cloneScriptTL = cloneTL.GetComponent<MathGameGamePiece>();
+
+            GameObject cloneTR = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
+            cloneTR.transform.Translate(0.3f, 0.0f, 0.3f);
+            MathGameGamePiece cloneScriptTR = cloneTR.GetComponent<MathGameGamePiece>();
+
             cloneScriptM.answer = problemsCollection.problems[chosenIndex].answer2;
             cloneScriptL.answer = problemsCollection.problems[chosenIndex].answer1;
             cloneScriptR.answer = problemsCollection.problems[chosenIndex].answer3;
+            cloneScriptTL.answer = problemsCollection.problems[chosenIndex].answer4;
+            cloneScriptTM.answer = problemsCollection.problems[chosenIndex].answer5;
+            cloneScriptTR.answer = problemsCollection.problems[chosenIndex].answer6;
 
             answerblank.answernumber = problemsCollection.problems[chosenIndex].correctAnswerIndex;
             answerblank.questionLeadingAudio = problemsCollection.problems[chosenIndex].questionLeadingAudio;
@@ -105,6 +120,15 @@ public class MathGame_LevelManager : MonoBehaviour
                     break;
                 case 3:
                     cloneScriptR.correctAnswer = true;
+                    break;
+                case 4:
+                    cloneScriptTL.correctAnswer = true;
+                    break;
+                case 5:
+                    cloneScriptTM.correctAnswer = true;
+                    break;
+                case 6:
+                    cloneScriptTR.correctAnswer = true;
                     break;
             }
 

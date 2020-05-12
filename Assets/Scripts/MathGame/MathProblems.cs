@@ -3,7 +3,7 @@ using System.Collections;
 using System.Xml;
 using System.Xml.Serialization;
 
-public class MathProblems : MonoBehaviour
+public class MathProblems
 {
     [XmlAttribute("id")]
     public string problemID;
@@ -22,6 +22,15 @@ public class MathProblems : MonoBehaviour
 
     [XmlElement("Answer_3")]
     public string answer3;
+
+    [XmlElement("Answer_4")]
+    public string answer4;
+
+    [XmlElement("Answer_5")]
+    public string answer5;
+
+    [XmlElement("Answer_6")]
+    public string answer6;
 
     [XmlElement("CorrectAnswerIndex")]
     public int correctAnswerIndex;
