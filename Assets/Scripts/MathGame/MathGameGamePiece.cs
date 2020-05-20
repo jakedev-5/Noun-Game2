@@ -5,7 +5,7 @@ using UnityEngine;
 public class MathGameGamePiece : MonoBehaviour {
 
 public bool grabbed;
-string initialTag;
+public string initialTag;
 Rigidbody physicsBody;
 Collider collision;
 public Vector3 initialPosition;
@@ -33,6 +33,10 @@ void Start()
 // Update is called once per frame
 void Update()
 {
+        if(correctAnswer == true)
+        {
+            tag = "answer";
+        }
     if (grabbed && physicsBody.isKinematic)
     {
 
@@ -70,6 +74,7 @@ public void reinitializeTag()
 private void OnMouseDown()
 {
     grabbed = true;
+        Debug.Log("PATRICIA");
 }
 private void OnMouseUp()
 {

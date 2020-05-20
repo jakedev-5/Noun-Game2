@@ -76,15 +76,15 @@ public class MathGame_LevelManager : MonoBehaviour
 
             // Initialize new fillblank_AnswerPiece using info from <problemsCollection.problems[chosenIndex]>
             GameObject cloneM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
-            cloneM.transform.Translate(-0.2f, -0.3f, 0.0f);
+            cloneM.transform.Translate(-0.2f, -0.4f, 0.0f);
             MathGameGamePiece cloneScriptM = cloneM.GetComponent<MathGameGamePiece>();
 
             GameObject cloneL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
-            cloneL.transform.Translate(-0.3f, -0.3f, 0.0f);
+            cloneL.transform.Translate(-0.3f, -0.4f, 0.0f);
             MathGameGamePiece cloneScriptL = cloneL.GetComponent<MathGameGamePiece>();
 
             GameObject cloneR = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
-            cloneR.transform.Translate(-0.2f, -0.3f, 0.0f);
+            cloneR.transform.Translate(-0.2f, -0.4f, 0.0f);
             MathGameGamePiece cloneScriptR = cloneR.GetComponent<MathGameGamePiece>();
 
             GameObject cloneTM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 270.0f, 0.0f)));
