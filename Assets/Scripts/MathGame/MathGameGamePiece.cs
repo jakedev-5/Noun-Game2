@@ -17,7 +17,7 @@ public bool correctAnswer = false;
 // Use this for initialization
 void Start()
 {
-    GetComponent<MeshFilter>().mesh = Resources.Load("Meshes/" + answer.ToLower(), typeof(Mesh)) as Mesh;
+    //GetComponent<MeshFilter>().mesh = Resources.Load("Meshes/" + answer.ToLower(), typeof(Mesh)) as Mesh;
     initialPosition = transform.position;
     initialTag = tag;
     physicsBody = GetComponent<Rigidbody>();
@@ -27,7 +27,7 @@ void Start()
 
     Freeze();
 
-
+//He Clearly Likes It!
 }
 
 // Update is called once per frame
