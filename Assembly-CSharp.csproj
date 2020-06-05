@@ -256,6 +256,7 @@
      <Compile Include="Assets\Scripts\MathGame\AnswerMath.cs" />
      <Compile Include="Assets\Scripts\MathGame\BoardCollisionMathGame.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGame_LevelManager.cs" />
+     <Compile Include="Assets\Scripts\MathGame\MathGameDrag.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGameGamePiece.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGameSoundManager.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathProblemContainer.cs" />

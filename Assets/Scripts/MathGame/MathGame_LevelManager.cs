@@ -76,27 +76,27 @@ public class MathGame_LevelManager : MonoBehaviour
 
             // Initialize new fillblank_AnswerPiece using info from <problemsCollection.problems[chosenIndex]>
             GameObject cloneM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
-            cloneM.transform.Translate(0.4f, -0.1f, 0.0f);
+            cloneM.transform.Translate(0.1f, -0.1f, 0.0f);
             MathGameGamePiece cloneScriptM = cloneM.GetComponent<MathGameGamePiece>();
 
             GameObject cloneL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
-            cloneL.transform.Translate(0.2f, -0.1f, 0.4f);
+            cloneL.transform.Translate(0.1f, -0.1f, 0.4f);
             MathGameGamePiece cloneScriptL = cloneL.GetComponent<MathGameGamePiece>();
 
             GameObject cloneR = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
-            cloneR.transform.Translate(0.6f, -0.1f, -0.4f);
+            cloneR.transform.Translate(0.1f, -0.1f, -0.4f);
             MathGameGamePiece cloneScriptR = cloneR.GetComponent<MathGameGamePiece>();
 
             GameObject cloneTM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
-            cloneTM.transform.Translate(0.4f, 0.2f, 0.0f);
+            cloneTM.transform.Translate(0.1f, 0.2f, 0.0f);
             MathGameGamePiece cloneScriptTM = cloneTM.GetComponent<MathGameGamePiece>();
 
             GameObject cloneTL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
-            cloneTL.transform.Translate(0.2f, 0.2f, 0.4f);
+            cloneTL.transform.Translate(0.1f, 0.2f, 0.4f);
             MathGameGamePiece cloneScriptTL = cloneTL.GetComponent<MathGameGamePiece>();
 
             GameObject cloneTR = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
-            cloneTR.transform.Translate(0.6f, 0.2f, -0.4f);
+            cloneTR.transform.Translate(0.1f, 0.2f, -0.4f);
             MathGameGamePiece cloneScriptTR = cloneTR.GetComponent<MathGameGamePiece>();
 
             cloneScriptM.answer = problemsCollection.problems[chosenIndex].answer2;
