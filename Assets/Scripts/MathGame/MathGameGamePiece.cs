@@ -74,7 +74,6 @@ public void reinitializeTag()
 private void OnMouseDown()
 {
     grabbed = true;
-        Debug.Log("PATRICIA");
 }
 private void OnMouseUp()
 {

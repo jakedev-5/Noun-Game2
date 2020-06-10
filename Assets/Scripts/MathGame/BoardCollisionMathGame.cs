@@ -24,13 +24,14 @@ public class BoardCollisionMathGame : MonoBehaviour
 
     private void Update()
     {
-
+        
     }
 
     void OnTriggerEnter(Collider answerPiece)
     {
+        Debug.Log("Obama Gaming" + answerPiece.name);
         // Get reference to the other.answerPiece script
-        AnswerMath answerPieceRef = answerPiece.gameObject.GetComponent<AnswerMath>();
+        MathGameGamePiece answerPieceRef = answerPiece.gameObject.GetComponent<MathGameGamePiecee>();
         // Temporarily disable the Collider trigger to avoid multiple scoring
         triggerCollider.enabled = false;
 
