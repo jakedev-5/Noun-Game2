@@ -78,6 +78,7 @@ public class MathGame_LevelManager : MonoBehaviour
             GameObject cloneM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneM.transform.Translate(0.1f, -0.1f, 0.0f);
             MathGameGamePiece cloneScriptM = cloneM.GetComponent<MathGameGamePiece>();
+            GetComponentInChildren<Text>().text = problemsCollection.problems[chosenIndex].Answer_1
 
             GameObject cloneL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneL.transform.Translate(0.1f, -0.1f, 0.4f);

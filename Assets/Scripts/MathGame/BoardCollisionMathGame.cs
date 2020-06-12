@@ -31,7 +31,7 @@ public class BoardCollisionMathGame : MonoBehaviour
     {
         Debug.Log("Obama Gaming" + answerPiece.name);
         // Get reference to the other.answerPiece script
-        MathGameGamePiece answerPieceRef = answerPiece.gameObject.GetComponent<MathGameGamePiecee>();
+        MathGameGamePiece answerPieceRef = answerPiece.gameObject.GetComponent<MathGameGamePiece>();
         // Temporarily disable the Collider trigger to avoid multiple scoring
         triggerCollider.enabled = false;
 
@@ -64,12 +64,12 @@ public class BoardCollisionMathGame : MonoBehaviour
         triggerCollider.enabled = true;
     }
 
-    private IEnumerator CorrectAnswer(Collider collider, AnswerMath answerPiece)
+    private IEnumerator CorrectAnswer(Collider collider, MathGameGamePiece answerPiece)
     {
         answerPiece.answered = true;
         // Play audio sequence "Good Job, <word> is a <type>"
-        StartCoroutine(MathGameSoundManager.Instance.playCorrectAudio(questionLeadingAudio2));
-        fillblank_ScoreManager.score++;
+        //StartCoroutine(MathGameSoundManager.Instance.playCorrectAudio(questionLeadingAudio2));
+       // fillblank_ScoreManager.score++;
 
         // Reference the stacker child object, used to lerp correct answerPieces into a stack
         Transform blackboardTransform = GameObject.Find("Blackboard/Chalkboard Question").transform;
@@ -82,14 +82,14 @@ public class BoardCollisionMathGame : MonoBehaviour
         // Freeze answerPiece now that its in place
         collider.GetComponent<Rigidbody>().isKinematic = true;
         collider.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-        Destroy(collider.GetComponent<GrabbableObject>());
+       // Destroy(collider.GetComponent<GrabbableObject>());
 
         yield return new WaitForSeconds(0.5f);
 
         TextMesh chalkboardQuestion = GameObject.Find("Blackboard/Chalkboard Question").GetComponent<TextMesh>();
         chalkboardQuestion.text = chalkboardQuestion.text.Replace("___", answerPiece.answer);
 
-        MathGame_LevelManager.Instance.playChalkDust();
+        //MathGame_LevelManager.Instance.playChalkDust();
 
 
         Destroy(collider.gameObject); // Delete correct answer
@@ -106,7 +106,7 @@ public class BoardCollisionMathGame : MonoBehaviour
         StartCoroutine(MathGame_LevelManager.Instance.spawnAnswerPiece());
     }
 
-    private IEnumerator WrongAnswer(Collider collider, AnswerMath answerPiece)
+    private IEnumerator WrongAnswer(Collider collider, MathGameGamePiece answerPiece)
     {
         answerPiece.answered = true;
         // Play audio sequence "Wrong!"
