@@ -38,8 +38,6 @@ public class BoardCollisionMathGame : MonoBehaviour
         //Debug.Log(answerPieceRef.tag);
         if (!answerPieceRef.answered)
         {
-            if (!answerPieceRef.grabbed)
-            {
                 switch (answerPieceRef.tag.ToLower()) // Compare the answerbox's expected tag (ToLower() makes this case-insensitive)
                 {
                     case "answer":
@@ -57,7 +55,6 @@ public class BoardCollisionMathGame : MonoBehaviour
                     default:
                         break;
                 }
-            }
         }
 
         // reenable the Collider trigger to avoid multiple scoring

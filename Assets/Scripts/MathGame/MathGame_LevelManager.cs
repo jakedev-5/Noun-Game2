@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+using TMPro;
 
 public class MathGame_LevelManager : MonoBehaviour
 {
@@ -79,42 +79,42 @@ public class MathGame_LevelManager : MonoBehaviour
             GameObject cloneM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneM.transform.Translate(0.1f, -0.1f, 0.0f);
             MathGameGamePiece cloneScriptM = cloneM.GetComponent<MathGameGamePiece>();
-            cloneM.GetComponent<TextMesh>().text = problemsCollection.problems[chosenIndex].answer2;
+            cloneM.GetComponentInChildren<TextMeshPro>().SetText(problemsCollection.problems[chosenIndex].answer2);
             Debug.Log(problemsCollection.problems[chosenIndex].answer2);
 
             GameObject cloneL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneL.transform.Translate(0.1f, -0.1f, 0.4f);
             MathGameGamePiece cloneScriptL = cloneL.GetComponent<MathGameGamePiece>();
 
-            cloneL.GetComponent<TextMesh>().text = problemsCollection.problems[chosenIndex].answer1;
+            cloneL.GetComponentInChildren<TextMeshPro>().SetText(problemsCollection.problems[chosenIndex].answer1);
             Debug.Log(problemsCollection.problems[chosenIndex].answer1);
 
             GameObject cloneR = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneR.transform.Translate(0.1f, -0.1f, -0.4f);
             MathGameGamePiece cloneScriptR = cloneR.GetComponent<MathGameGamePiece>();
 
-            cloneR.GetComponent<TextMesh>().text = problemsCollection.problems[chosenIndex].answer3;
+            cloneR.GetComponentInChildren<TextMeshPro>().SetText(problemsCollection.problems[chosenIndex].answer3);
             Debug.Log(problemsCollection.problems[chosenIndex].answer3);
 
             GameObject cloneTM = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneTM.transform.Translate(0.1f, 0.2f, 0.0f);
             MathGameGamePiece cloneScriptTM = cloneTM.GetComponent<MathGameGamePiece>();
 
-            cloneTM.GetComponent<TextMesh>().text = problemsCollection.problems[chosenIndex].answer5;
+            cloneTM.GetComponentInChildren<TextMeshPro>().SetText(problemsCollection.problems[chosenIndex].answer5);
             Debug.Log(problemsCollection.problems[chosenIndex].answer5);
 
             GameObject cloneTL = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneTL.transform.Translate(0.1f, 0.2f, 0.4f);
             MathGameGamePiece cloneScriptTL = cloneTL.GetComponent<MathGameGamePiece>();
 
-            cloneTL.GetComponent<TextMesh>().text = problemsCollection.problems[chosenIndex].answer4;
+            cloneTL.GetComponentInChildren<TextMeshPro>().SetText(problemsCollection.problems[chosenIndex].answer4);
             Debug.Log(problemsCollection.problems[chosenIndex].answer4);
 
             GameObject cloneTR = (GameObject)Instantiate(answerPiece, spawnPosition, Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f)));
             cloneTR.transform.Translate(0.1f, 0.2f, -0.4f);
             MathGameGamePiece cloneScriptTR = cloneTR.GetComponent<MathGameGamePiece>();
 
-            cloneTR.GetComponent<TextMesh>().text = problemsCollection.problems[chosenIndex].answer6;
+            cloneTR.GetComponentInChildren<TextMeshPro>().SetText(problemsCollection.problems[chosenIndex].answer6);
             Debug.Log(problemsCollection.problems[chosenIndex].answer6);
 
             cloneScriptM.answer = problemsCollection.problems[chosenIndex].answer2;
