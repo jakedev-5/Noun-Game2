@@ -92,7 +92,7 @@ public class BoardCollisionMathGame : MonoBehaviour
         Destroy(collider.gameObject); // Delete correct answer
 
         // Delete wrong answers
-        GameObject[] toKill = GameObject.FindGameObjectsWithTag("Answer");
+        GameObject[] toKill = GameObject.FindGameObjectsWithTag("answer");
         foreach (GameObject iterator in toKill)
         {
             Destroy(iterator);

@@ -69,7 +69,7 @@
     </Problem>
 
     <Problem id="_6">
-      <QuestionLeading>5 - 1</QuestionLeading>
+      <QuestionLeading>5 - 1 =</QuestionLeading>
 
       <QuestionLeadingAudio>Question_2</QuestionLeadingAudio>
       <Answer_1>1</Answer_1>
@@ -83,7 +83,7 @@
 
 
     <Problem id="_7">
-      <QuestionLeading>5 + 1</QuestionLeading>
+      <QuestionLeading>5 + 1 =</QuestionLeading>
 
       <QuestionLeadingAudio>Question_7-14</QuestionLeadingAudio>
 
@@ -100,7 +100,7 @@
     </Problem>
 
     <Problem id="_8">
-      <QuestionLeading>4 + 2</QuestionLeading>
+      <QuestionLeading>4 + 2 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
@@ -117,7 +117,7 @@
     </Problem>
 
     <Problem id="_9">
-      <QuestionLeading>3 + 3</QuestionLeading>
+      <QuestionLeading>3 + 3 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
@@ -134,7 +134,7 @@
     </Problem>
 
     <Problem id="_10">
-      <QuestionLeading>4 + 2</QuestionLeading>
+      <QuestionLeading>4 + 2 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
@@ -151,7 +151,7 @@
     </Problem>
 
     <Problem id="_11">
-      <QuestionLeading>6 - 2</QuestionLeading>
+      <QuestionLeading>6 - 2 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
@@ -168,7 +168,7 @@
     </Problem>
 
     <Problem id="_12">
-      <QuestionLeading>3 + 1</QuestionLeading>
+      <QuestionLeading>3 + 1 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
@@ -183,7 +183,7 @@
     </Problem>
 
     <Problem id="_13">
-      <QuestionLeading>3 + 2</QuestionLeading>
+      <QuestionLeading>3 + 2 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
@@ -200,7 +200,7 @@
     </Problem>
 
     <Problem id="_14">
-      <QuestionLeading>0 + 6</QuestionLeading>
+      <QuestionLeading>0 + 6 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
@@ -217,7 +217,7 @@
     </Problem>
 
     <Problem id="_15">
-      <QuestionLeading>5 - 0</QuestionLeading>
+      <QuestionLeading>5 - 0 =</QuestionLeading>
 
       <QuestionLeadingAudio></QuestionLeadingAudio>
 
