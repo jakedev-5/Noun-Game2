@@ -66,7 +66,7 @@ public class BoardCollisionMathGame : MonoBehaviour
         answerPiece.answered = true;
         // Play audio sequence "Good Job, <word> is a <type>"
         //StartCoroutine(MathGameSoundManager.Instance.playCorrectAudio(questionLeadingAudio2));
-       // fillblank_ScoreManager.score++;
+        MathGameScoreManager.score++;
 
         // Reference the stacker child object, used to lerp correct answerPieces into a stack
         Transform blackboardTransform = GameObject.Find("Blackboard/Chalkboard Question").transform;
