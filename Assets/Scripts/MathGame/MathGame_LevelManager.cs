@@ -27,6 +27,8 @@ public class MathGame_LevelManager : MonoBehaviour
 
     void Start()
     {
+        answerblank = GameObject.Find("BoardCollision").GetComponent<BoardCollisionMathGame>();
+        initialTransform = GameObject.Find("answerPieceSpawner").GetComponent<Transform>();
         problemsCollection = MathProblemContainer.Load(xmlPath);
         initialProblemCapacity = problemsCollection.problems.Count;
 

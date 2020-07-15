@@ -32579,7 +32579,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ditch Class
+  m_Text: Leave Class
 --- !u!222 &883506774
 CanvasRenderer:
   m_ObjectHideFlags: 0

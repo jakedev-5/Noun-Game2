@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ButtonFunction : MonoBehaviour
 {
 
-    public fillblank_LevelManager FallenKingdom;
+    public MathGame_LevelManager FallenKingdom;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,7 @@ public class ButtonFunction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FallenKingdom = GameObject.Find("Manager").GetComponent<fillblank_LevelManager>();
+        FallenKingdom = GameObject.Find("Dadsuki").GetComponent<MathGame_LevelManager>();
     }
     public void restartCurrentScene()
     {
