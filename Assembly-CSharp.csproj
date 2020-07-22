@@ -263,6 +263,7 @@
      <Compile Include="Assets\Scripts\MathGame\MathGameSoundManager.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathProblemContainer.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathProblems.cs" />
+     <Compile Include="Assets\Scripts\MathGame\PlayerRotate.cs" />
      <Compile Include="Assets\Scripts\NotSafeZone.cs" />
      <Compile Include="Assets\Scripts\NumbersYe.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
