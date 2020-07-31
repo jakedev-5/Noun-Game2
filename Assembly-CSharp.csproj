@@ -270,6 +270,7 @@
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Word.cs" />
      <Compile Include="Assets\Scripts\WordContainer.cs" />
+     <Compile Include="Assets\Secret code\Secret Code.cs" />
      <Compile Include="Assets\ShowBounds.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
