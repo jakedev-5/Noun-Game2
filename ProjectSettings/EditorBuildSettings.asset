@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Math Class.unity
     guid: 849b1ea189ed1014f8c4ad0348ff5560
+  - enabled: 1
+    path: Assets/Scenes/Cursed Artwork.unity
+    guid: 7d3020c5c2b03af4dbb4c6962ca02104
+  - enabled: 1
+    path: Assets/Scenes/End Credits.unity
+    guid: 2fac1007537ecc04ca5f9e53d69bf5c4
   m_configObjects: {}

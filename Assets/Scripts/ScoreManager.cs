@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -27,6 +28,13 @@ public class ScoreManager : MonoBehaviour
             {
                 onetime = true;
                 StartCoroutine(PlayParticles());
+
+            if (SceneManager.GetActiveScene().buildIndex == 11)
+            {
+                SceneManager.LoadScene(12);
+                Debug.Log("Hong Kong 2020");
+            }
+
             }
     }
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MathGameScoreManager : MonoBehaviour
 {
@@ -20,5 +21,16 @@ public class MathGameScoreManager : MonoBehaviour
     {
         title.text = "Score:  " + score;
         Debug.Log(title.text);
+        if (!onetime && score == MathGame_LevelManager.Instance.initialProblemCapacity)
+        {
+            onetime = true;
+
+            if (SceneManager.GetActiveScene().buildIndex == 11)
+            {
+                SceneManager.LoadScene(12);
+                Debug.Log("Hong Kong 2020");
+            }
+
+        }
     }
 }
