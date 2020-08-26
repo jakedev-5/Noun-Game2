@@ -252,6 +252,7 @@
      <Compile Include="Assets\Scripts\FillBlank\MC.cs" />
      <Compile Include="Assets\Scripts\FillBlank\MCMovment.cs" />
      <Compile Include="Assets\Scripts\Fillblank_Drag.cs" />
+     <Compile Include="Assets\Scripts\FloatUp.cs" />
      <Compile Include="Assets\Scripts\GamePiece.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
