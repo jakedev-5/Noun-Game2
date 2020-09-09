@@ -58,4 +58,8 @@ public class ButtonFunction : MonoBehaviour
     {
         SceneManager.LoadScene(11);
     }
+    public void ChangeScene8()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

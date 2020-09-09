@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FloatUp : MonoBehaviour
 {
-    
+
+    Vector3 pos;
 
     // Start is alledc before the first frame update
     void Start()
@@ -15,8 +16,8 @@ public class FloatUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pos.y += 1;
+        pos.y += .40f;
         transform.position = pos;
-        Debug.Log(transform.position);
+        
     }
 }

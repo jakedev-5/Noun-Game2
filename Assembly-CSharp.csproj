@@ -269,6 +269,7 @@
      <Compile Include="Assets\Scripts\NotSafeZone.cs" />
      <Compile Include="Assets\Scripts\NumbersYe.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\SongEnd.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Word.cs" />
      <Compile Include="Assets\Scripts\WordContainer.cs" />
