@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SongEnd : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class SongEnd : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CreditsMusic();
+        DarkDecks = GetComponent<AudioSource>();
+        DarkDecks.Play(0);
+        StartCoroutine(CreditsMusic());
     }
 
     // Update is called once per frame
@@ -21,9 +24,9 @@ public class SongEnd : MonoBehaviour
     
     public IEnumerator CreditsMusic()
     {
-        DarkDecks.Play();
-        yield return new WaitForSeconds(1);
-        Debug.Log("Anti-Universe");
+        
+        yield return new WaitForSeconds(133);
+        SceneManager.LoadScene(0);
     }
 
 }
