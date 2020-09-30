@@ -257,8 +257,8 @@
      <Compile Include="Assets\Scripts\Level_Manager_Copy.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
-     <Compile Include="Assets\Scripts\MathGame\AnswerMath.cs" />
      <Compile Include="Assets\Scripts\MathGame\BoardCollisionMathGame.cs" />
+     <Compile Include="Assets\Scripts\MathGame\Grab2.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGame_LevelManager.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGameDrag.cs" />
      <Compile Include="Assets\Scripts\MathGame\MathGameGamePiece.cs" />

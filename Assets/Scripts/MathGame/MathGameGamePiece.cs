@@ -51,7 +51,7 @@ void Freeze()
 
 void UnFreeze()
 {
-    physicsBody.isKinematic = false;
+    //physicsBody.isKinematic = false;
 }
 
 //    public void deactivate()
