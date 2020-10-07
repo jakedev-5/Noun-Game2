@@ -20,7 +20,7 @@ public class MathGameScoreManager : MonoBehaviour
     void Update()
     {
         title.text = "Score:  " + score;
-        Debug.Log(title.text);
+        
         if (!onetime && score == MathGame_LevelManager.Instance.initialProblemCapacity)
         {
             onetime = true;
@@ -28,7 +28,7 @@ public class MathGameScoreManager : MonoBehaviour
             if (SceneManager.GetActiveScene().buildIndex == 11)
             {
                 SceneManager.LoadScene(12);
-                Debug.Log("Hong Kong 2020");
+                
             }
 
         }

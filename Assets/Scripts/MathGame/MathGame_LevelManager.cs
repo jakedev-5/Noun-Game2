@@ -37,7 +37,8 @@ public class MathGame_LevelManager : MonoBehaviour
 
     void Update()
     {
-
+        answerblank = GameObject.Find("BoardCollision").GetComponent<BoardCollisionMathGame>();
+        initialTransform = GameObject.Find("answerPieceSpawner").GetComponent<Transform>();
     }
 
     // Ensures two copies of the singleton do not exist
@@ -67,6 +68,7 @@ public class MathGame_LevelManager : MonoBehaviour
         Vector3 spawnPosition = GameObject.Find("answerPieceSpawner").transform.position;
         if (problemsCollection.problems.Count != 0)
         {
+            Debug.Log("Sub 2 Pewdiepie. Destroy Cocomelon");
             // Choose index of word from <wordCollection.words>
             int chosenIndex = Random.Range(0, problemsCollection.problems.Count);
 
@@ -164,8 +166,17 @@ public class MathGame_LevelManager : MonoBehaviour
 
     public void restartCurrentScene()
     {
+        GameObject[] toKill = GameObject.FindGameObjectsWithTag("answer");
+        foreach (GameObject iterator in toKill)
+        {
+            Debug.Log("6758q");
+            Destroy(iterator);
+        }
+
         Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        //SceneManager.LoadScene(scene.name);
+        StartCoroutine(spawnAnswerPiece());
+        MathGameScoreManager.score=0;
     }
 
 }

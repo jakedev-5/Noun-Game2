@@ -21,9 +21,7 @@ public class ButtonFunction : MonoBehaviour
     }
     public void restartCurrentScene()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
-        StartCoroutine(FallenKingdom.spawnAnswerPiece());
+        FallenKingdom.restartCurrentScene();
     }
     public void ExitGame()
     {
