@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class fillblank_ScoreManager : MonoBehaviour {
 
@@ -15,5 +16,10 @@ public class fillblank_ScoreManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         title.text = "Score:  " + score;
+        if (score == 15)
+        {
+            SceneManager.LoadScene(0);
+        }
 	}
+
 }

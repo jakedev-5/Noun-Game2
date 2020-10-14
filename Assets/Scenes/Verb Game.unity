@@ -297,7 +297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &92228022
 RectTransform:
   m_ObjectHideFlags: 0
@@ -831,7 +831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &442017296
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1696,7 +1696,7 @@ TextMesh:
   m_GameObject: {fileID: 1106676420}
   m_Text: 'Game Completion!
 
-    (Enter password for free prize!)'
+    (Click the Button)'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2686,6 +2686,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.3831024, z: 0.29725456}
   m_Center: {x: 0, y: -0.09568596, z: -0.35137272}
+--- !u!1 &1766242885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1766242887}
+  - component: {fileID: 1766242886}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1766242886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766242885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a7d1003fcb9d946b9d9a32a7a2aaba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FallenKingdom: {fileID: 0}
+--- !u!4 &1766242887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766242885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 496.29785, y: -293.30322, z: 1119.8418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1778652376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2826,8 +2870,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1239242803}
-        m_MethodName: twopress
+      - m_Target: {fileID: 1766242886}
+        m_MethodName: ChangeScene8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

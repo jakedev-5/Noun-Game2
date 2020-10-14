@@ -36,6 +36,10 @@ public class ScoreManager : MonoBehaviour
             }
 
             }
+        if (score == 6)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
     public IEnumerator PlayParticles()
@@ -64,4 +68,5 @@ public class ScoreManager : MonoBehaviour
         fireworks2.Clear();
         fireworks3.Clear();
     }
+       
 }
